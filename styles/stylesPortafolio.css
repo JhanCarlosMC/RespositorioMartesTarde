@@ -1,0 +1,11 @@
+@import url("nav-styles.css");
+@import url("footer-styles.css");
+@import url("sections-styles.css");
+@import url("login.css");
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
