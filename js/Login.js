@@ -12,7 +12,7 @@ formLogin.addEventListener("submit", function(e){
     console.log(usuarioRegistrado.password + " " + password);
 
     if(usuarioRegistrado.correo == correo && usuarioRegistrado.password == password){
-        window.location.href = "/html/index.html";
+        window.location.href = "/index.html";
 
     }else{
         alert("El usuario y contraseña no coinciden.")
